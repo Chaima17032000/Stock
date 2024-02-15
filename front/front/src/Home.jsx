@@ -1,8 +1,15 @@
 import React from 'react'
+import Login from './Components/Login'
+import Navbar from './Components/Navbar'
+import './home.css'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='home'>
+  <Navbar/>
+    
+
+    </div>
   )
 }
 
